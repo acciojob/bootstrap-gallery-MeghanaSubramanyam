@@ -100,8 +100,9 @@
         
         lightboxModal.addEventListener('show.bs.modal', function (event) {
             const imgElement = event.relatedTarget;
-            lightboxImage.src = imgElement.src;
+            lightboxImage.src = imgElement.src;  // Update the image source in the modal
         });
     </script>
 </body>
 </html>
+
